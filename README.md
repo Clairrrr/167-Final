@@ -1,6 +1,15 @@
 # Introduction: Fire at Coronavirus
 This is a computer graphics project created for CSE 167 offered at UCSD. For basic functions and features, check following blogs.
 
+# Blog March 16th
+Our project name, member and key features remain the same: Our project is a game called "Fire at Coronavirus". As SARS-COV-2 virus is spreading globally, we need to recruit someone who can help fight the virus. The player will control a nanometer-level fighter to eliminate the virus in the air. Player as pilot needs to control the craft to avoid the virus and fire nano-bullets to destroy them.\
+Here are some updates
+1. We successfully animated the procedurally-generated cloud and incorporate this functionality with the rest of the "world", including the background skybox, our fighter, and the coronavirus.
+2. We completed the implementation of collision detection between bullets from the fighter and coronavirus. When a bullet is launched from a fighter, after it hits a virus, the virus disappears. We also have the debugging functionality of coloring the overlapping area to red wehn two objects collide.
+3. We added textures to our fighter, the coronavirus, and bullets according to real life examples to make the game more vivid and visually attractive. 
+The following screenshot shows the effect of the procedually generated cloud: 
+
+
 # Blog March 9th
 Our project name, member and key features remain the same: Our project is a game called "Fire at Coronavirus". As SARS-COV-2 virus is spreading globally, we need to recruit someone who can help fight the virus. The player will control a nanometer-level fighter to eliminate the virus in the air. Player as pilot needs to control the craft to avoid the virus and fire nano-bullets to destroy them.\
 Here are some updates
