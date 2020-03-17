@@ -4,6 +4,13 @@ This is a computer graphics project created for CSE 167 offered at UCSD. For bas
 # Blog March 9th
 Our project name, member and key features remain the same: Our project is a game called "Fire at Coronavirus". As SARS-COV-2 virus is spreading globally, we need to recruit someone who can help fight the virus. The player will control a nanometer-level fighter to eliminate the virus in the air. Player as pilot needs to control the craft to avoid the virus and fire nano-bullets to destroy them.\
 Here are some updates
+1. We successfully animated the procedurally-generated cloud and incorporate the animation with the rest of the "world", which includes the fighter, coronavirus, and the backgroud skybox.
+2. We completed the implementation of collision detection. When a bullet is launched from the fighter and hits a virus, the virus disappears. We also enables the debugging functionality of coloring the overlapping area to red when two objects collide.
+3. We added textures to the fighter, coronavirus, and bullets, according to real life settings, to make the game more realistic and visually appearing.
+
+# Blog March 9th
+Our project name, member and key features remain the same: Our project is a game called "Fire at Coronavirus". As SARS-COV-2 virus is spreading globally, we need to recruit someone who can help fight the virus. The player will control a nanometer-level fighter to eliminate the virus in the air. Player as pilot needs to control the craft to avoid the virus and fire nano-bullets to destroy them.\
+Here are some updates
 1. In the previous six days we completed the implementation of first-person view control, whereby thge player can controls the aircraft itself and the view of the aircraft by left mouse button and right mouse button respectively. 
 2. We also started on procedurally generating animated clouds. Currently we are able to generate the cloud and incorporate the cloud with the original skybox background. The next step for this technical feature would be making the generated cloud animated. 
 3. For the third technical features we successfully enabled the functionality to launch bullets from the aircraft. Afterwards we will enable collision detection of the bullet with arbitrary geometry and generate visual effects if that occurs.
